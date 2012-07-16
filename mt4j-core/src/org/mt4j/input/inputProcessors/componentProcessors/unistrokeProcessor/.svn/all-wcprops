@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/unistrokeProcessor
+END
+UnistrokeTemplates.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/unistrokeProcessor/UnistrokeTemplates.java
+END
+UnistrokeProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/unistrokeProcessor/UnistrokeProcessor.java
+END
+UnistrokeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/unistrokeProcessor/UnistrokeUtils.java
+END
+UnistrokeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/unistrokeProcessor/UnistrokeEvent.java
+END
+UnistrokeContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/unistrokeProcessor/UnistrokeContext.java
+END

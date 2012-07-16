@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j
+END
+AbstractMTApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/AbstractMTApplication.java
+END
+IPAppletBoth.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/IPAppletBoth.java
+END
+IMTApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/IMTApplication.java
+END

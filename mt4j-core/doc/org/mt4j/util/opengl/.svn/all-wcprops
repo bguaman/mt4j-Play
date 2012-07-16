@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl
+END
+GLFboStack.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLFboStack.html
+END
+GLMaterial.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLMaterial.html
+END
+GLStencilUtil.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLStencilUtil.html
+END
+GLTexture.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLTexture.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/package-summary.html
+END
+GLTexture.TEXTURE_TARGET.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLTexture.TEXTURE_TARGET.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/package-tree.html
+END
+GLFBO.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLFBO.html
+END
+GLTexture.EXPANSION_FILTER.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLTexture.EXPANSION_FILTER.html
+END
+GLTexture.WRAP_MODE.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLTexture.WRAP_MODE.html
+END
+IGLU.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/IGLU.html
+END
+GLStateHolder.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLStateHolder.html
+END
+GLTexture.SHRINKAGE_FILTER.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLTexture.SHRINKAGE_FILTER.html
+END
+GL10.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GL10.html
+END
+GLTextureSettings.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLTextureSettings.html
+END
+GL20.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GL20.html
+END
+GL11.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GL11.html
+END
+GL11Plus.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GL11Plus.html
+END
+GLCommon.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/opengl/GLCommon.html
+END

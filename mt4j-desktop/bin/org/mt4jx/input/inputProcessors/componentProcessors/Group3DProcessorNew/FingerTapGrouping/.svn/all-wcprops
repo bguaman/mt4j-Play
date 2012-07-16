@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping
+END
+FingerTapSelectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapSelectionManager.java
+END
+FingerTapState.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapState.java
+END
+FingerTapCursorMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapCursorMethods.java
+END
+FingerTapStateMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapStateMethods.java
+END
+FingerTapSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapSelection.java
+END
+FingerTapTransitions.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapTransitions.java
+END
+FingerTapCursorState.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/FingerTapGrouping/FingerTapCursorState.java
+END

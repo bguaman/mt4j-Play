@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use
+END
+InputCursor.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/InputCursor.html
+END
+AbstractCursorInputEvt.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/AbstractCursorInputEvt.html
+END
+MTFiducialInputEvt.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/MTFiducialInputEvt.html
+END
+MTInputEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/MTInputEvent.html
+END
+ActiveCursorPool.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/ActiveCursorPool.html
+END
+MTWin7TouchInputEvt.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/MTWin7TouchInputEvt.html
+END
+MTMouseInputEvt.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/MTMouseInputEvt.html
+END
+MTFingerInputEvt.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputData/class-use/MTFingerInputEvt.html
+END

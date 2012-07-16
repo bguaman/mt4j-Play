@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation
+END
+Animation.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/Animation.java
+END
+AnimationEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/AnimationEvent.java
+END
+AbstractAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/AbstractAnimation.java
+END
+AnimationUpdateEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/AnimationUpdateEvent.java
+END
+IAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/IAnimation.java
+END
+IAnimationManagerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/IAnimationManagerListener.java
+END
+AnimationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/AnimationManager.java
+END
+Iinterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/Iinterpolator.java
+END
+MultiPurposeInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/MultiPurposeInterpolator.java
+END
+IAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/animation/IAnimationListener.java
+END

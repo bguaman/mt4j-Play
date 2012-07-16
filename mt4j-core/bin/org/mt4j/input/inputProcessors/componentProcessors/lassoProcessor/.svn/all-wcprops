@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/lassoProcessor
+END
+LassoProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/lassoProcessor/LassoProcessor.java
+END
+LassoEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/lassoProcessor/LassoEvent.java
+END
+ILassoable.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/lassoProcessor/ILassoable.java
+END

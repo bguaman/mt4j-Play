@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/sceneManagement/transition
+END
+BlendTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/sceneManagement/transition/BlendTransition.java
+END
+FlipTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/sceneManagement/transition/FlipTransition.java
+END
+SlideTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/sceneManagement/transition/SlideTransition.java
+END

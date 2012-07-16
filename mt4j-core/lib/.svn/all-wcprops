@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/MT4JClient/!svn/ver/6/mt4j-core/lib
+END
+mt4j-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/MT4JClient/!svn/ver/6/mt4j-core/lib/mt4j-core.jar
+END
+ani.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/MT4JClient/!svn/ver/6/mt4j-core/lib/ani.jar
+END
+xml-apis-ext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/MT4JClient/!svn/ver/6/mt4j-core/lib/xml-apis-ext.jar
+END
+LICENSE-Apache2.0.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/MT4JClient/!svn/ver/6/mt4j-core/lib/LICENSE-Apache2.0.html
+END
+License_Ani.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/MT4JClient/!svn/ver/6/mt4j-core/lib/License_Ani.txt
+END
+License_Jme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/MT4JClient/!svn/ver/6/mt4j-core/lib/License_Jme.txt
+END
+batik-css.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/MT4JClient/!svn/ver/6/mt4j-core/lib/batik-css.jar
+END
+License_Processing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/MT4JClient/!svn/ver/6/mt4j-core/lib/License_Processing.txt
+END

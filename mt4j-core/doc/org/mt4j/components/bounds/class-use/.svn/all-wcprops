@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use
+END
+BoundingSphere.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use/BoundingSphere.html
+END
+IBoundingShapeMergable.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use/IBoundingShapeMergable.html
+END
+IBoundingShape.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use/IBoundingShape.html
+END
+BoundsArbitraryPlanarPolygon.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use/BoundsArbitraryPlanarPolygon.html
+END
+OrientedBoundingBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use/OrientedBoundingBox.html
+END
+BoundsZPlaneRectangle.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/components/bounds/class-use/BoundsZPlaneRectangle.html
+END

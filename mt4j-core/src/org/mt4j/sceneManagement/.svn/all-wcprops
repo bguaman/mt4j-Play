@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement
+END
+AbstractScene.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement/AbstractScene.java
+END
+ISceneChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement/ISceneChangeListener.java
+END
+AddNodeActionThreadSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement/AddNodeActionThreadSafe.java
+END
+SceneChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement/SceneChangeEvent.java
+END
+Iscene.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement/Iscene.java
+END
+IPreDrawAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/sceneManagement/IPreDrawAction.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/font
+END
+IFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/font/IFont.java
+END
+ITextureFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/font/ITextureFont.java
+END
+FontManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/font/FontManager.java
+END
+IFontCharacter.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/font/IFontCharacter.java
+END
+ITextureFontCharacter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/font/ITextureFontCharacter.java
+END

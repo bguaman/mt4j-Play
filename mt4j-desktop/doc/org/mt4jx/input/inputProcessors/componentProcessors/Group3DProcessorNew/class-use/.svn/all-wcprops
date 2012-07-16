@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use
+END
+ISelection.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/ISelection.html
+END
+ClusterHub.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/ClusterHub.html
+END
+IClusterEventListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/IClusterEventListener.html
+END
+ISelectionListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/ISelectionListener.html
+END
+MTClusterEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/MTClusterEvent.html
+END
+ClusterDataManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/ClusterDataManager.html
+END
+MTSelectionEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/MTSelectionEvent.html
+END
+ISelectionManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/ISelectionManager.html
+END
+MTLassoSelectionEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/class-use/MTLassoSelectionEvent.html
+END

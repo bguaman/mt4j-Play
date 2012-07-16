@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes
+END
+IPhysicsComponent.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/IPhysicsComponent.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/package-frame.html
+END
+PhysicsCircle.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/PhysicsCircle.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/package-summary.html
+END
+PhysicsRectangle.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/PhysicsRectangle.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/package-tree.html
+END
+PhysicsSphere.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/PhysicsSphere.html
+END
+PhysicsPolygon.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-desktop/doc/advanced/physics/physicsShapes/PhysicsPolygon.html
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math
+END
+Plane.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Plane.java
+END
+Matrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Matrix.java
+END
+ToolsVBO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ToolsVBO.java
+END
+ToolsMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ToolsMath.java
+END
+ConvexQuickHull2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ConvexQuickHull2D.java
+END
+ToolsGeometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ToolsGeometry.java
+END
+Vertex.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Vertex.java
+END
+ToolsBuffers.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ToolsBuffers.java
+END
+BezierVertex.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/BezierVertex.java
+END
+Quaternion.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Quaternion.java
+END
+ConvexityUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ConvexityUtil.java
+END
+Tools3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Tools3D.java
+END
+ToolsLight.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/ToolsLight.java
+END
+Vector3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Vector3D.java
+END
+Ray.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/math/Ray.java
+END

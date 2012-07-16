@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/camera
+END
+Icamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/camera/Icamera.java
+END
+Frustum.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/camera/Frustum.java
+END
+MTCamera.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/camera/MTCamera.java
+END
+ViewportSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/camera/ViewportSetting.java
+END
+IFrustum.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/camera/IFrustum.java
+END

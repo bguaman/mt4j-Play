@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/package-summary.html
+END
+ILogger.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/ILogger.html
+END
+MTLoggerFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/MTLoggerFactory.html
+END
+NoLoggerProvidedException.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/NoLoggerProvidedException.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/package-tree.html
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputSources
+END
+IinputSourceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputSources/IinputSourceListener.java
+END
+AbstractInputSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputSources/AbstractInputSource.java
+END

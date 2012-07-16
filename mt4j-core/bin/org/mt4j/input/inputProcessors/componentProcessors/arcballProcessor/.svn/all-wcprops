@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/arcballProcessor
+END
+ArcballProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/arcballProcessor/ArcballProcessor.java
+END
+ArcBallGestureEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/arcballProcessor/ArcBallGestureEvent.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew
+END
+ClusterHub.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/ClusterHub.java
+END
+IClusterEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/IClusterEventListener.java
+END
+ISelectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/ISelectionListener.java
+END
+MTClusterEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/MTClusterEvent.java
+END
+ClusterDataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/ClusterDataManager.java
+END
+MTSelectionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/MTSelectionEvent.java
+END
+ISelectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/ISelectionManager.java
+END
+MTLassoSelectionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/MTLassoSelectionEvent.java
+END
+ISelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/inputProcessors/componentProcessors/Group3DProcessorNew/ISelection.java
+END

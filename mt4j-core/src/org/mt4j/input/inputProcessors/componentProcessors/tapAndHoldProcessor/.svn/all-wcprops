@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/tapAndHoldProcessor
+END
+TapAndHoldEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/tapAndHoldProcessor/TapAndHoldEvent.java
+END
+TapAndHoldProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/tapAndHoldProcessor/TapAndHoldProcessor.java
+END

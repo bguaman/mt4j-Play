@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/modelImporter/fileObj
+END
+ModelObjFileFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/modelImporter/fileObj/ModelObjFileFactory.java
+END
+ObjectFileParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/modelImporter/fileObj/ObjectFileParser.java
+END
+ObjectFileMaterials.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/modelImporter/fileObj/ObjectFileMaterials.java
+END
+ParsingErrorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/modelImporter/fileObj/ParsingErrorException.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util
+END
+MT4jSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/MT4jSettings.java
+END
+AbstractCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/AbstractCollection.java
+END
+MTColor.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/MTColor.java
+END
+Arrays.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/Arrays.java
+END
+ArrayDeque.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/ArrayDeque.java
+END
+PlatformUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/PlatformUtil.java
+END
+HelperMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/HelperMethods.java
+END
+TriangleNormalGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/TriangleNormalGenerator.java
+END
+UnitTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/UnitTranslator.java
+END
+IPlatformUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/IPlatformUtil.java
+END
+NodeRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/util/NodeRenderer.java
+END

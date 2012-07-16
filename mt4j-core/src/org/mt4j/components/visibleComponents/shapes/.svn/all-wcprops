@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes
+END
+AbstractShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/AbstractShape.java
+END
+MTRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTRectangle.java
+END
+GeometryInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/GeometryInfo.java
+END
+MTLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTLine.java
+END
+MTPolygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTPolygon.java
+END
+MTCSSStylableShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTCSSStylableShape.java
+END
+MTStencilPolygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTStencilPolygon.java
+END
+MTRoundRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTRoundRectangle.java
+END
+MTEllipse.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/MTEllipse.java
+END

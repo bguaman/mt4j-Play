@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/font/fontFactories
+END
+TTFontFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/font/fontFactories/TTFontFactory.java
+END
+BitmapFontFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/font/fontFactories/BitmapFontFactory.java
+END
+SvgFontFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/font/fontFactories/SvgFontFactory.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors
+END
+GestureUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/GestureUtils.java
+END
+IGestureEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/IGestureEventListener.java
+END
+MTGestureEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/MTGestureEvent.java
+END
+IInputProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/IInputProcessor.java
+END

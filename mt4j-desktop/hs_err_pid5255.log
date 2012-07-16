@@ -1,0 +1,662 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f089b1b2b69, pid=5255, tid=139674864670464
+#
+# JRE version: 6.0_26-b03
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.1-b02 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# C  [libGL.so.1+0x2e8b69]  __float128+0x9
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000041b18800):  JavaThread "Thread-2" [_thread_in_native, id=5280, stack(0x00007f0896a15000,0x00007f0896b16000)]
+
+siginfo:si_signo=SIGSEGV: si_errno=0, si_code=1 (SEGV_MAPERR), si_addr=0x0000000000000688
+
+Registers:
+RAX=0x0000000000000000, RBX=0x00000000bdc38b08, RCX=0x0000000000000438, RDX=0x0000000000000780
+RSP=0x00007f0896b144d8, RBP=0x00007f0896b14520, RSI=0x0000000000000000, RDI=0x0000000000000000
+R8 =0x0000000000001908, R9 =0x0000000000001401, R10=0x00007f0896b14250, R11=0x00007f089b1b2b60
+R12=0x0000000000000000, R13=0x00000000bdc38b08, R14=0x00007f0896b14618, R15=0x0000000041b18800
+RIP=0x00007f089b1b2b69, EFLAGS=0x0000000000010206, CSGSFS=0x0000000000000033, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007f0896b144d8)
+0x00007f0896b144d8:   00007f0898f08ae0 00007f089602b000
+0x00007f0896b144e8:   00007f08000000b7 0000078000000438
+0x00007f0896b144f8:   0000000000000000 00007f0896b14618
+0x00007f0896b14508:   0000000041b189d0 00007f0896b145b8
+0x00007f0896b14518:   00007f089602b000 00007f0896b145b8
+0x00007f0896b14528:   00007f08a30a1d6e 00007f0800001908
+0x00007f0896b14538:   00007f0800001401 00007f0896b145e0
+0x00007f0896b14548:   00007f0800000000 00007f0896b14660
+0x00007f0896b14558:   00007f0896b145d8 00000000bce86ae0
+0x00007f0896b14568:   00007f0896b145a8 0000000041b18800
+0x00007f0896b14578:   00007f0896b14578 00000000bdc38b08
+0x00007f0896b14588:   00007f0896b14618 00000000bdcb4620
+0x00007f0896b14598:   0000000000000000 00000000bdc38b08
+0x00007f0896b145a8:   0000000000000000 00007f0896b145d8
+0x00007f0896b145b8:   00007f0896b14660 00007f08a3096a82
+0x00007f0896b145c8:   0000000000000000 00007f08a309ef58
+0x00007f0896b145d8:   0000000000000000 00000000ebb78eb8
+0x00007f0896b145e8:   0000000000001401 0000000000001908
+0x00007f0896b145f8:   0000000000000438 0000000000000780
+0x00007f0896b14608:   0000000000000000 0000000000000000
+0x00007f0896b14618:   00000000ec5e8f50 00007f0896b14620
+0x00007f0896b14628:   00000000bdc38a0a 00007f0896b146b0
+0x00007f0896b14638:   00000000bdcb4620 0000000000000000
+0x00007f0896b14648:   00000000bdc38a38 00007f0896b145d8
+0x00007f0896b14658:   00007f0896b14678 00007f0896b146f8
+0x00007f0896b14668:   00007f08a3096f5c 0000000000000001
+0x00007f0896b14678:   00000000ebb78eb8 0000000000001401
+0x00007f0896b14688:   0000000000001908 0000000000000438
+0x00007f0896b14698:   0000000000000780 0000000000000000
+0x00007f0896b146a8:   0000000000000000 00000000ec5e8f50
+0x00007f0896b146b8:   00007f0896b146b8 00000000bd965e2b
+0x00007f0896b146c8:   00007f0896b14730 00000000bd9895d0 
+
+Instructions: (pc=0x00007f089b1b2b69)
+0x00007f089b1b2b49:   ff a0 80 06 00 00 cc cc cc cc cc cc cc cc cc cc
+0x00007f089b1b2b59:   cc cc cc cc cc cc cc 64 48 8b 04 25 60 ff ff ff
+0x00007f089b1b2b69:   ff a0 88 06 00 00 cc cc cc cc cc cc cc cc cc cc
+0x00007f089b1b2b79:   cc cc cc cc cc cc cc 64 48 8b 04 25 60 ff ff ff 
+
+Register to memory mapping:
+
+RAX=0x0000000000000000 is an unknown value
+RBX=0x00000000bdc38b08 is an oop
+{method} 
+ - klass: {other class}
+RCX=0x0000000000000438 is an unknown value
+RDX=0x0000000000000780 is an unknown value
+RSP=0x00007f0896b144d8 is pointing into the stack for thread: 0x0000000041b18800
+RBP=0x00007f0896b14520 is pointing into the stack for thread: 0x0000000041b18800
+RSI=0x0000000000000000 is an unknown value
+RDI=0x0000000000000000 is an unknown value
+R8 =0x0000000000001908 is an unknown value
+R9 =0x0000000000001401 is an unknown value
+R10=0x00007f0896b14250 is pointing into the stack for thread: 0x0000000041b18800
+R11=0x00007f089b1b2b60: glReadPixels+0 in /usr/lib/nvidia-current/libGL.so.1 at 0x00007f089aeca000
+R12=0x0000000000000000 is an unknown value
+R13=0x00000000bdc38b08 is an oop
+{method} 
+ - klass: {other class}
+R14=0x00007f0896b14618 is pointing into the stack for thread: 0x0000000041b18800
+R15=0x0000000041b18800 is a thread
+
+
+Stack: [0x00007f0896a15000,0x00007f0896b16000],  sp=0x00007f0896b144d8,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libGL.so.1+0x2e8b69]  __float128+0x9
+j  com.sun.opengl.impl.GLImpl.glReadPixels0(IIIIIILjava/lang/Object;I)V+0
+j  com.sun.opengl.impl.GLImpl.glReadPixels(IIIIIILjava/nio/Buffer;)V+50
+j  processing.opengl.PGraphicsOpenGL.loadPixels()V+75
+j  processing.core.PImage.save(Ljava/lang/String;)V+30
+j  processing.core.PApplet.saveFrame()V+38
+j  advanced.drawing.DrawSurfaceScene.run()V+12
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x4df5c0]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x1e0
+V  [libjvm.so+0x70f629]  os::os_exception_wrapper(void (*)(JavaValue*, methodHandle*, JavaCallArguments*, Thread*), JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x19
+V  [libjvm.so+0x4def06]  JavaCalls::call_virtual(JavaValue*, KlassHandle, symbolHandle, symbolHandle, JavaCallArguments*, Thread*)+0x126
+V  [libjvm.so+0x4defb7]  JavaCalls::call_virtual(JavaValue*, Handle, KlassHandle, symbolHandle, symbolHandle, Thread*)+0x47
+V  [libjvm.so+0x572ce0]  thread_entry(JavaThread*, Thread*)+0xa0
+V  [libjvm.so+0x8190f1]  JavaThread::run()+0x121
+V  [libjvm.so+0x710adf]  java_start(Thread*)+0x13f
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  com.sun.opengl.impl.GLImpl.glReadPixels0(IIIIIILjava/lang/Object;I)V+0
+j  com.sun.opengl.impl.GLImpl.glReadPixels(IIIIIILjava/nio/Buffer;)V+50
+j  processing.opengl.PGraphicsOpenGL.loadPixels()V+75
+j  processing.core.PImage.save(Ljava/lang/String;)V+30
+j  processing.core.PApplet.saveFrame()V+38
+j  advanced.drawing.DrawSurfaceScene.run()V+12
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x0000000041b18800 JavaThread "Thread-2" [_thread_in_native, id=5280, stack(0x00007f0896a15000,0x00007f0896b16000)]
+  0x0000000041d22000 JavaThread "Thread-1" [_thread_in_native, id=5279, stack(0x00007f0897bea000,0x00007f0897ceb000)]
+  0x0000000041832000 JavaThread "DestroyJavaVM" [_thread_blocked, id=5260, stack(0x00007f08a6e27000,0x00007f08a6f28000)]
+  0x0000000041d58000 JavaThread "Animation Thread" [_thread_blocked, id=5278, stack(0x00007f089b2d7000,0x00007f089b3d8000)]
+  0x00007f089c3b5000 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=5277, stack(0x00007f089b3d8000,0x00007f089b4d9000)]
+  0x0000000041b3c800 JavaThread "AWT-Shutdown" [_thread_blocked, id=5276, stack(0x00007f089b4d9000,0x00007f089b5da000)]
+  0x00007f089c344800 JavaThread "AWT-XAWT" daemon [_thread_in_native, id=5274, stack(0x00007f089b8e4000,0x00007f089b9e5000)]
+  0x00007f089c245800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=5273, stack(0x00007f08a013f000,0x00007f08a0240000)]
+  0x00007f089c070800 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=5271, stack(0x00007f08a185a000,0x00007f08a195b000)]
+  0x00007f089c06d800 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=5270, stack(0x00007f08a195b000,0x00007f08a1a5c000)]
+  0x00007f089c06b000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=5269, stack(0x00007f08a1a5c000,0x00007f08a1b5d000)]
+  0x00007f089c068800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=5268, stack(0x00007f08a1b5d000,0x00007f08a1c5e000)]
+  0x00007f089c04c800 JavaThread "Finalizer" daemon [_thread_blocked, id=5267, stack(0x00007f08a1f03000,0x00007f08a2004000)]
+  0x00007f089c04a800 JavaThread "Reference Handler" daemon [_thread_blocked, id=5266, stack(0x00007f08a2004000,0x00007f08a2105000)]
+
+Other Threads:
+  0x00007f089c044000 VMThread [stack: 0x00007f08a2105000,0x00007f08a2206000] [id=5265]
+  0x00007f089c083000 WatcherThread [stack: 0x00007f08a1759000,0x00007f08a185a000] [id=5272]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 18496K, used 16573K [0x00000000eb560000, 0x00000000eca00000, 0x0000000100000000)
+  eden space 15872K, 90% used [0x00000000eb560000,0x00000000ec374b20,0x00000000ec4e0000)
+  from space 2624K, 82% used [0x00000000ec4e0000,0x00000000ec6faa00,0x00000000ec770000)
+  to   space 2624K, 0% used [0x00000000ec770000,0x00000000ec770000,0x00000000eca00000)
+ PSOldGen        total 42304K, used 0K [0x00000000c2000000, 0x00000000c4950000, 0x00000000eb560000)
+  object space 42304K, 0% used [0x00000000c2000000,0x00000000c2000000,0x00000000c4950000)
+ PSPermGen       total 21248K, used 18231K [0x00000000bce00000, 0x00000000be2c0000, 0x00000000c2000000)
+  object space 21248K, 85% used [0x00000000bce00000,0x00000000bdfcdf80,0x00000000be2c0000)
+
+Code Cache  [0x00007f08a3091000, 0x00007f08a3301000, 0x00007f08a6091000)
+ total_blobs=879 nmethods=85 adapters=748 free_code_cache=49380672 largest_free_block=11392
+
+Dynamic libraries:
+40000000-40009000 r-xp 00000000 08:22 1185676                            /usr/lib/jvm/java-6-sun-1.6.0.26/jre/bin/java
+40108000-4010a000 rwxp 00008000 08:22 1185676                            /usr/lib/jvm/java-6-sun-1.6.0.26/jre/bin/java
+40db2000-40db4000 r-xs 00000000 08:22 1993135                            /tmp/glDWwFwU (deleted)
+41827000-41e89000 rwxp 00000000 00:00 0                                  [heap]
+bce00000-be2c0000 rwxp 00000000 00:00 0 
+be2c0000-c2000000 rwxp 00000000 00:00 0 
+c2000000-c4950000 rwxp 00000000 00:00 0 
+c4950000-eb560000 rwxp 00000000 00:00 0 
+eb560000-eca00000 rwxp 00000000 00:00 0 
+eca00000-100000000 rwxp 00000000 00:00 0 
+7f089602a000-7f0896a15000 rwxp 00000000 00:00 0 
+7f0896a15000-7f0896a18000 ---p 00000000 00:00 0 
+7f0896a18000-7f0897bea000 rwxp 00000000 00:00 0 
+7f0897bea000-7f0897bed000 ---p 00000000 00:00 0 
+7f0897bed000-7f0897ceb000 rwxp 00000000 00:00 0 
+7f0897ceb000-7f0897cfe000 r-xp 00000000 08:22 1189407                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libnet.so
+7f0897cfe000-7f0897dff000 ---p 00013000 08:22 1189407                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libnet.so
+7f0897dff000-7f0897e02000 rwxp 00014000 08:22 1189407                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libnet.so
+7f0897e02000-7f0897f02000 rwxs 6569a000 00:05 6100                       /dev/nvidia1
+7f0897f02000-7f0898002000 rwxs 1eb54000 00:05 6100                       /dev/nvidia1
+7f0898002000-7f0898212000 rwxp 00000000 00:00 0 
+7f0898212000-7f0898a82000 rwxs c0000000 00:05 6100                       /dev/nvidia1
+7f0898a82000-7f0898a84000 r-xp 00000000 08:24 696261                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libjogl_awt.so
+7f0898a84000-7f0898b83000 ---p 00002000 08:24 696261                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libjogl_awt.so
+7f0898b83000-7f0898b84000 rwxp 00001000 08:24 696261                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libjogl_awt.so
+7f0898b84000-7f0898b85000 r-xp 00000000 08:22 1189436                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libjawt.so
+7f0898b85000-7f0898c84000 ---p 00001000 08:22 1189436                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libjawt.so
+7f0898c84000-7f0898c85000 rwxp 00000000 08:22 1189436                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libjawt.so
+7f0898c85000-7f0898c8a000 r-xp 00000000 08:22 1182806                    /usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0
+7f0898c8a000-7f0898e89000 ---p 00005000 08:22 1182806                    /usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0
+7f0898e89000-7f0898e8a000 r-xp 00004000 08:22 1182806                    /usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0
+7f0898e8a000-7f0898e8b000 rwxp 00005000 08:22 1182806                    /usr/lib/x86_64-linux-gnu/libXxf86vm.so.1.0.0
+7f0898e8b000-7f0898f7a000 r-xp 00000000 08:24 696252                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libjogl.so
+7f0898f7a000-7f089907a000 ---p 000ef000 08:24 696252                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libjogl.so
+7f089907a000-7f089907b000 rwxp 000ef000 08:24 696252                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libjogl.so
+7f089907b000-7f089a4c9000 r-xp 00000000 08:22 1184078                    /usr/lib/nvidia-current/libnvidia-glcore.so.270.41.06
+7f089a4c9000-7f089a6c9000 ---p 0144e000 08:22 1184078                    /usr/lib/nvidia-current/libnvidia-glcore.so.270.41.06
+7f089a6c9000-7f089acb1000 rwxp 0144e000 08:22 1184078                    /usr/lib/nvidia-current/libnvidia-glcore.so.270.41.06
+7f089acb1000-7f089acc8000 rwxp 00000000 00:00 0 
+7f089acc8000-7f089acc9000 r-xp 00000000 08:22 1180743                    /usr/lib/nvidia-current/tls/libnvidia-tls.so.270.41.06
+7f089acc9000-7f089aec9000 ---p 00001000 08:22 1180743                    /usr/lib/nvidia-current/tls/libnvidia-tls.so.270.41.06
+7f089aec9000-7f089aeca000 rwxp 00001000 08:22 1180743                    /usr/lib/nvidia-current/tls/libnvidia-tls.so.270.41.06
+7f089aeca000-7f089af87000 r-xp 00000000 08:22 1183145                    /usr/lib/nvidia-current/libGL.so.270.41.06
+7f089af87000-7f089b187000 ---p 000bd000 08:22 1183145                    /usr/lib/nvidia-current/libGL.so.270.41.06
+7f089b187000-7f089b1c0000 rwxp 000bd000 08:22 1183145                    /usr/lib/nvidia-current/libGL.so.270.41.06
+7f089b1c0000-7f089b1d6000 rwxp 00000000 00:00 0 
+7f089b1d6000-7f089b1d7000 r-xp 00000000 08:24 696219                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libgluegen-rt.so
+7f089b1d7000-7f089b2d6000 ---p 00001000 08:24 696219                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libgluegen-rt.so
+7f089b2d6000-7f089b2d7000 rwxp 00000000 08:24 696219                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/libgluegen-rt.so
+7f089b2d7000-7f089b2da000 ---p 00000000 00:00 0 
+7f089b2da000-7f089b3d8000 rwxp 00000000 00:00 0 
+7f089b3d8000-7f089b3db000 ---p 00000000 00:00 0 
+7f089b3db000-7f089b4d9000 rwxp 00000000 00:00 0 
+7f089b4d9000-7f089b4dc000 ---p 00000000 00:00 0 
+7f089b4dc000-7f089b5da000 rwxp 00000000 00:00 0 
+7f089b5da000-7f089b5dd000 ---p 00000000 00:00 0 
+7f089b5dd000-7f089b6db000 rwxp 00000000 00:00 0 
+7f089b6db000-7f089b6e3000 r-xp 00000000 08:22 1187959                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f089b6e3000-7f089b8e2000 ---p 00008000 08:22 1187959                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f089b8e2000-7f089b8e3000 r-xp 00007000 08:22 1187959                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f089b8e3000-7f089b8e4000 rwxp 00008000 08:22 1187959                    /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f089b8e4000-7f089b8e7000 ---p 00000000 00:00 0 
+7f089b8e7000-7f089b9e5000 rwxp 00000000 00:00 0 
+7f089b9e5000-7f089b9ea000 r-xp 00000000 08:22 1180715                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f089b9ea000-7f089bbe9000 ---p 00005000 08:22 1180715                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f089bbe9000-7f089bbea000 r-xp 00004000 08:22 1180715                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f089bbea000-7f089bbeb000 rwxp 00005000 08:22 1180715                    /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f089bbeb000-7f089bbf4000 r-xp 00000000 08:22 1180172                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f089bbf4000-7f089bdf4000 ---p 00009000 08:22 1180172                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f089bdf4000-7f089bdf5000 r-xp 00009000 08:22 1180172                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f089bdf5000-7f089bdf6000 rwxp 0000a000 08:22 1180172                    /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f089bdf6000-7f089bdff000 r-xp 00000000 08:22 1188068                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f089bdff000-7f089bffe000 ---p 00009000 08:22 1188068                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f089bffe000-7f089bfff000 r-xp 00008000 08:22 1188068                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f089bfff000-7f089c000000 rwxp 00009000 08:22 1188068                    /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f089c000000-7f089cf45000 rwxp 00000000 00:00 0 
+7f089cf45000-7f08a0000000 ---p 00000000 00:00 0 
+7f08a0069000-7f08a006b000 rwxs 00000000 08:22 1993135                    /tmp/glDWwFwU (deleted)
+7f08a006b000-7f08a00ab000 rwxs cff7e000 00:05 6100                       /dev/nvidia1
+7f08a00ab000-7f08a00af000 rwxs 6567e000 00:05 6100                       /dev/nvidia1
+7f08a00af000-7f08a00b0000 rwxs cffbe000 00:05 6100                       /dev/nvidia1
+7f08a00b0000-7f08a00cb000 rwxs 140e00000 00:05 6100                      /dev/nvidia1
+7f08a00cb000-7f08a00cd000 r-xs 00005000 08:24 816243                     /home/bguaman/workspace/MT4jTUIO4jInputSources/tuio4jInput.jar
+7f08a00cd000-7f08a00cf000 r-xs 0000b000 08:24 692063                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/tuio/tuio4j.jar
+7f08a00cf000-7f08a00db000 r-xs 0010f000 08:24 692263                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/jogl/jogl.jar
+7f08a00db000-7f08a00dc000 r-xs 00000000 08:22 2621607                    /var/cache/fontconfig/c05880de57d1f5e948fdfacc138775d9-le64.cache-3
+7f08a00dc000-7f08a00e5000 r-xs 00000000 08:22 2621606                    /var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le64.cache-3
+7f08a00e5000-7f08a00e7000 r-xs 00000000 08:22 2621574                    /var/cache/fontconfig/99e8ed0e538f840c565b6ed5dad60d56-le64.cache-3
+7f08a00e7000-7f08a00ea000 r-xs 00000000 08:22 2621604                    /var/cache/fontconfig/e383d7ea5fbe662a33d9b44caf393297-le64.cache-3
+7f08a00ea000-7f08a00ec000 r-xs 00000000 08:22 2621603                    /var/cache/fontconfig/2cd17615ca594fa2959ae173292e504c-le64.cache-3
+7f08a00ec000-7f08a00ed000 r-xs 00000000 08:22 2621601                    /var/cache/fontconfig/e7071f4a29fa870f4323321c154eba04-le64.cache-3
+7f08a00ed000-7f08a00f0000 r-xs 00000000 08:22 2625717                    /var/cache/fontconfig/b5ea634b0fb353b8ea17632d1f9ef766-le64.cache-3
+7f08a00f0000-7f08a00f4000 r-xs 00000000 08:22 2621600                    /var/cache/fontconfig/6eb3985aa4124903f6ff08ba781cd364-le64.cache-3
+7f08a00f4000-7f08a00f5000 r-xs 00000000 08:22 2621599                    /var/cache/fontconfig/4c73fe0c47614734b17d736dbde7580a-le64.cache-3
+7f08a00f5000-7f08a00f6000 r-xs 00000000 08:22 2621598                    /var/cache/fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le64.cache-3
+7f08a00f6000-7f08a00f7000 r-xs 00000000 08:22 2621597                    /var/cache/fontconfig/6a53c69dea097a2d716e069445527da8-le64.cache-3
+7f08a00f7000-7f08a00fd000 r-xs 00000000 08:22 2621596                    /var/cache/fontconfig/a755afe4a08bf5b97852ceb7400b47bc-le64.cache-3
+7f08a00fd000-7f08a0101000 r-xs 00000000 08:22 2626406                    /var/cache/fontconfig/6d41288fd70b0be22e8c3a91e032eec0-le64.cache-3
+7f08a0101000-7f08a0111000 r-xs 00000000 08:22 2621593                    /var/cache/fontconfig/0f34bcd4b6ee430af32735b75db7f02b-le64.cache-3
+7f08a0111000-7f08a013f000 r-xs 00000000 08:22 2621591                    /var/cache/fontconfig/365b55f210c0a22e9a19e35191240f32-le64.cache-3
+7f08a013f000-7f08a0142000 ---p 00000000 00:00 0 
+7f08a0142000-7f08a0240000 rwxp 00000000 00:00 0 
+7f08a0240000-7f08a02b9000 r-xp 00000000 08:22 1189423                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libfontmanager.so
+7f08a02b9000-7f08a03b8000 ---p 00079000 08:22 1189423                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libfontmanager.so
+7f08a03b8000-7f08a03cd000 rwxp 00078000 08:22 1189423                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libfontmanager.so
+7f08a03cd000-7f08a03de000 rwxp 00000000 00:00 0 
+7f08a03de000-7f08a03e3000 r-xp 00000000 08:22 1187279                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f08a03e3000-7f08a05e2000 ---p 00005000 08:22 1187279                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f08a05e2000-7f08a05e3000 r-xp 00004000 08:22 1187279                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f08a05e3000-7f08a05e4000 rwxp 00005000 08:22 1187279                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f08a05e4000-7f08a05e6000 r-xp 00000000 08:22 1187247                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f08a05e6000-7f08a07e5000 ---p 00002000 08:22 1187247                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f08a07e5000-7f08a07e6000 r-xp 00001000 08:22 1187247                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f08a07e6000-7f08a07e7000 rwxp 00002000 08:22 1187247                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f08a07e7000-7f08a0802000 r-xp 00000000 08:22 1187284                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f08a0802000-7f08a0a01000 ---p 0001b000 08:22 1187284                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f08a0a01000-7f08a0a02000 r-xp 0001a000 08:22 1187284                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f08a0a02000-7f08a0a03000 rwxp 0001b000 08:22 1187284                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f08a0a03000-7f08a0a12000 r-xp 00000000 08:22 1188155                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f08a0a12000-7f08a0c11000 ---p 0000f000 08:22 1188155                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f08a0c11000-7f08a0c12000 r-xp 0000e000 08:22 1188155                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f08a0c12000-7f08a0c13000 rwxp 0000f000 08:22 1188155                    /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f08a0c13000-7f08a0c18000 r-xp 00000000 08:22 1182462                    /usr/lib/libXtst.so.6.1.0
+7f08a0c18000-7f08a0e17000 ---p 00005000 08:22 1182462                    /usr/lib/libXtst.so.6.1.0
+7f08a0e17000-7f08a0e18000 r-xp 00004000 08:22 1182462                    /usr/lib/libXtst.so.6.1.0
+7f08a0e18000-7f08a0e19000 rwxp 00005000 08:22 1182462                    /usr/lib/libXtst.so.6.1.0
+7f08a0e19000-7f08a0f4e000 r-xp 00000000 08:22 1188489                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f08a0f4e000-7f08a114e000 ---p 00135000 08:22 1188489                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f08a114e000-7f08a114f000 r-xp 00135000 08:22 1188489                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f08a114f000-7f08a1153000 rwxp 00136000 08:22 1188489                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f08a1153000-7f08a1164000 r-xp 00000000 08:22 1183304                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f08a1164000-7f08a1363000 ---p 00011000 08:22 1183304                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f08a1363000-7f08a1364000 r-xp 00010000 08:22 1183304                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f08a1364000-7f08a1365000 rwxp 00011000 08:22 1183304                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f08a1365000-7f08a1366000 rwxs 65678000 00:05 6100                       /dev/nvidia1
+7f08a1366000-7f08a1367000 rwxs 43d6b000 00:05 6100                       /dev/nvidia1
+7f08a1367000-7f08a1368000 rwxs b2c03000 00:05 6100                       /dev/nvidia1
+7f08a1368000-7f08a1369000 rwxs 1ea07000 00:05 6100                       /dev/nvidia1
+7f08a1369000-7f08a136a000 rwxs b2001000 00:05 6100                       /dev/nvidia1
+7f08a136a000-7f08a136b000 r-xs 00005000 08:24 692258                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/jogl/opengl.jar
+7f08a136b000-7f08a136d000 r-xs 0005b000 08:24 692276                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/core.jar
+7f08a136d000-7f08a1377000 r-xs 00000000 08:22 2621590                    /var/cache/fontconfig/d52a8644073d54c13679302ca1180695-le64.cache-3
+7f08a1377000-7f08a137d000 r-xs 00000000 08:22 2626487                    /var/cache/fontconfig/105b9c7e6f0a4f82d8c9b6e39c52c6f9-le64.cache-3
+7f08a137d000-7f08a1390000 r-xs 00000000 08:22 2621573                    /var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-3
+7f08a1390000-7f08a13d2000 r-xp 00000000 08:22 1189412                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/xawt/libmawt.so
+7f08a13d2000-7f08a14d1000 ---p 00042000 08:22 1189412                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/xawt/libmawt.so
+7f08a14d1000-7f08a14dd000 rwxp 00041000 08:22 1189412                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/xawt/libmawt.so
+7f08a14dd000-7f08a14de000 rwxp 00000000 00:00 0 
+7f08a14de000-7f08a1570000 r-xp 00000000 08:22 1189435                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libawt.so
+7f08a1570000-7f08a166f000 ---p 00092000 08:22 1189435                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libawt.so
+7f08a166f000-7f08a1689000 rwxp 00091000 08:22 1189435                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libawt.so
+7f08a1689000-7f08a16ad000 rwxp 00000000 00:00 0 
+7f08a16ad000-7f08a16ce000 r-xs 00261000 08:24 684919                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-core/lib/mt4j-core.jar
+7f08a16ce000-7f08a16d6000 r-xs 00045000 08:24 684925                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-core/lib/batik-css.jar
+7f08a16d6000-7f08a16d7000 r-xs 00006000 08:24 684920                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-core/lib/ani.jar
+7f08a16d7000-7f08a16d8000 r-xs 00002000 08:24 695877                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/examples/advanced/water/lib/waterScene.jar
+7f08a16d8000-7f08a16dc000 r-xs 00091000 08:24 694960                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/examples/advanced/physics/lib/jbox2d.jar
+7f08a16dc000-7f08a16de000 r-xs 0000c000 08:24 696150                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/examples/advanced/modestMapsMT/lib/modestMaps.jar
+7f08a16de000-7f08a16df000 r-xs 00001000 08:24 695903                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/examples/advanced/fluidSimulator/lib/MSAFluid.jar
+7f08a16df000-7f08a16e3000 r-xs 0005e000 08:24 696093                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/examples/advanced/flickrMT/lib/flickrj.jar
+7f08a16e3000-7f08a16e5000 r-xs 0003c000 08:24 688488                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/extensions/lib/jbullet/vecmath.jar
+7f08a16e5000-7f08a16e6000 r-xs 0000b000 08:24 688489                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/extensions/lib/jbullet/stack-alloc.jar
+7f08a16e6000-7f08a16ef000 r-xs 0006c000 08:24 688490                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/extensions/lib/jbullet/jbullet.jar
+7f08a16ef000-7f08a16f1000 r-xs 00008000 08:24 692099                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/whirlylib/whirlycache-1.0.1.jar
+7f08a16f1000-7f08a16f9000 r-xs 0004f000 08:24 692104                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/whirlylib/log4j-1.2.8.jar
+7f08a16f9000-7f08a1701000 r-xs 00028000 08:24 692211                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/xml-apis.jar
+7f08a1701000-7f08a170c000 r-xs 000ad000 08:24 692204                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/pdf-transcoder.jar
+7f08a170c000-7f08a1714000 r-xs 00074000 08:24 692206                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/js.jar
+7f08a1714000-7f08a1715000 r-xs 00007000 08:24 692193                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-xml.jar
+7f08a1715000-7f08a1718000 r-xs 0001d000 08:24 692201                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-util.jar
+7f08a1718000-7f08a171a000 r-xs 0001c000 08:24 692195                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-transcoder.jar
+7f08a171a000-7f08a171f000 r-xs 00030000 08:24 692190                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-svggen.jar
+7f08a171f000-7f08a172c000 r-xs 00087000 08:24 692200                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-svg-dom.jar
+7f08a172c000-7f08a172f000 r-xs 0000d000 08:24 692196                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-script.jar
+7f08a172f000-7f08a1731000 r-xs 00010000 08:24 692191                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-parser.jar
+7f08a1731000-7f08a1735000 r-xs 00038000 08:24 692210                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-gvt.jar
+7f08a1735000-7f08a1737000 r-xs 0000f000 08:24 692199                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-extension.jar
+7f08a1737000-7f08a1738000 r-xs 00002000 08:24 692209                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-ext.jar
+7f08a1738000-7f08a173c000 r-xs 00027000 08:24 692184                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-dom.jar
+7f08a173c000-7f08a1746000 r-xs 00080000 08:24 692192                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-bridge.jar
+7f08a1746000-7f08a174d000 r-xs 0005c000 08:24 692213                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-awt-util.jar
+7f08a174d000-7f08a1750000 r-xs 00015000 08:24 692188                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/batik/batik-anim.jar
+7f08a1750000-7f08a1752000 r-xs 00006000 08:24 692275                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/mri.jar
+7f08a1752000-7f08a1758000 r-xs 00034000 08:24 692278                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/junit-4.8.2.jar
+7f08a1758000-7f08a1759000 r-xs 00002000 08:24 692273                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/GlulogicMT.jar
+7f08a1759000-7f08a175a000 ---p 00000000 00:00 0 
+7f08a175a000-7f08a185a000 rwxp 00000000 00:00 0 
+7f08a185a000-7f08a185d000 ---p 00000000 00:00 0 
+7f08a185d000-7f08a195b000 rwxp 00000000 00:00 0 
+7f08a195b000-7f08a195e000 ---p 00000000 00:00 0 
+7f08a195e000-7f08a1a5c000 rwxp 00000000 00:00 0 
+7f08a1a5c000-7f08a1a5f000 ---p 00000000 00:00 0 
+7f08a1a5f000-7f08a1b5d000 rwxp 00000000 00:00 0 
+7f08a1b5d000-7f08a1b60000 ---p 00000000 00:00 0 
+7f08a1b60000-7f08a1c5e000 rwxp 00000000 00:00 0 
+7f08a1c5e000-7f08a1f03000 r-xp 00000000 08:22 1179791                    /usr/lib/locale/locale-archive
+7f08a1f03000-7f08a1f06000 ---p 00000000 00:00 0 
+7f08a1f06000-7f08a2004000 rwxp 00000000 00:00 0 
+7f08a2004000-7f08a2007000 ---p 00000000 00:00 0 
+7f08a2007000-7f08a2105000 rwxp 00000000 00:00 0 
+7f08a2105000-7f08a2106000 ---p 00000000 00:00 0 
+7f08a2106000-7f08a273f000 rwxp 00000000 00:00 0 
+7f08a273f000-7f08a28d7000 r-xs 03029000 08:22 1202981                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+7f08a28d7000-7f08a28ff000 rwxp 00000000 00:00 0 
+7f08a28ff000-7f08a2900000 ---p 00000000 00:00 0 
+7f08a2900000-7f08a2a00000 rwxp 00000000 00:00 0 
+7f08a2a00000-7f08a2a01000 ---p 00000000 00:00 0 
+7f08a2a01000-7f08a2b01000 rwxp 00000000 00:00 0 
+7f08a2b01000-7f08a2b02000 ---p 00000000 00:00 0 
+7f08a2b02000-7f08a2c02000 rwxp 00000000 00:00 0 
+7f08a2c02000-7f08a2c03000 ---p 00000000 00:00 0 
+7f08a2c03000-7f08a2d0e000 rwxp 00000000 00:00 0 
+7f08a2d0e000-7f08a2d2c000 rwxp 00000000 00:00 0 
+7f08a2d2c000-7f08a2d41000 rwxp 00000000 00:00 0 
+7f08a2d41000-7f08a2e77000 rwxp 00000000 00:00 0 
+7f08a2e77000-7f08a2e82000 rwxp 00000000 00:00 0 
+7f08a2e82000-7f08a2ea0000 rwxp 00000000 00:00 0 
+7f08a2ea0000-7f08a2eb5000 rwxp 00000000 00:00 0 
+7f08a2eb5000-7f08a2fea000 rwxp 00000000 00:00 0 
+7f08a2fea000-7f08a2ff5000 rwxp 00000000 00:00 0 
+7f08a2ff5000-7f08a3090000 rwxp 00000000 00:00 0 
+7f08a3090000-7f08a3301000 rwxp 00000000 00:00 0 
+7f08a3301000-7f08a6091000 rwxp 00000000 00:00 0 
+7f08a6091000-7f08a609f000 r-xp 00000000 08:22 1189430                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libzip.so
+7f08a609f000-7f08a61a1000 ---p 0000e000 08:22 1189430                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libzip.so
+7f08a61a1000-7f08a61a4000 rwxp 00010000 08:22 1189430                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libzip.so
+7f08a61a4000-7f08a61a5000 rwxp 00000000 00:00 0 
+7f08a61a5000-7f08a61b1000 r-xp 00000000 08:22 1837256                    /lib/x86_64-linux-gnu/libnss_files-2.13.so
+7f08a61b1000-7f08a63b0000 ---p 0000c000 08:22 1837256                    /lib/x86_64-linux-gnu/libnss_files-2.13.so
+7f08a63b0000-7f08a63b1000 r-xp 0000b000 08:22 1837256                    /lib/x86_64-linux-gnu/libnss_files-2.13.so
+7f08a63b1000-7f08a63b2000 rwxp 0000c000 08:22 1837256                    /lib/x86_64-linux-gnu/libnss_files-2.13.so
+7f08a63b2000-7f08a63bd000 r-xp 00000000 08:22 1837260                    /lib/x86_64-linux-gnu/libnss_nis-2.13.so
+7f08a63bd000-7f08a65bc000 ---p 0000b000 08:22 1837260                    /lib/x86_64-linux-gnu/libnss_nis-2.13.so
+7f08a65bc000-7f08a65bd000 r-xp 0000a000 08:22 1837260                    /lib/x86_64-linux-gnu/libnss_nis-2.13.so
+7f08a65bd000-7f08a65be000 rwxp 0000b000 08:22 1837260                    /lib/x86_64-linux-gnu/libnss_nis-2.13.so
+7f08a65be000-7f08a65c6000 r-xp 00000000 08:22 1837252                    /lib/x86_64-linux-gnu/libnss_compat-2.13.so
+7f08a65c6000-7f08a67c5000 ---p 00008000 08:22 1837252                    /lib/x86_64-linux-gnu/libnss_compat-2.13.so
+7f08a67c5000-7f08a67c6000 r-xp 00007000 08:22 1837252                    /lib/x86_64-linux-gnu/libnss_compat-2.13.so
+7f08a67c6000-7f08a67c7000 rwxp 00008000 08:22 1837252                    /lib/x86_64-linux-gnu/libnss_compat-2.13.so
+7f08a67c7000-7f08a67de000 r-xp 00000000 08:22 1837250                    /lib/x86_64-linux-gnu/libnsl-2.13.so
+7f08a67de000-7f08a69dd000 ---p 00017000 08:22 1837250                    /lib/x86_64-linux-gnu/libnsl-2.13.so
+7f08a69dd000-7f08a69de000 r-xp 00016000 08:22 1837250                    /lib/x86_64-linux-gnu/libnsl-2.13.so
+7f08a69de000-7f08a69df000 rwxp 00017000 08:22 1837250                    /lib/x86_64-linux-gnu/libnsl-2.13.so
+7f08a69df000-7f08a69e1000 rwxp 00000000 00:00 0 
+7f08a69e1000-7f08a6a0a000 r-xp 00000000 08:22 1189429                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libjava.so
+7f08a6a0a000-7f08a6b09000 ---p 00029000 08:22 1189429                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libjava.so
+7f08a6b09000-7f08a6b10000 rwxp 00028000 08:22 1189429                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libjava.so
+7f08a6b10000-7f08a6b1d000 r-xp 00000000 08:22 1189406                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libverify.so
+7f08a6b1d000-7f08a6c1c000 ---p 0000d000 08:22 1189406                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libverify.so
+7f08a6c1c000-7f08a6c1f000 rwxp 0000c000 08:22 1189406                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/libverify.so
+7f08a6c1f000-7f08a6c26000 r-xp 00000000 08:22 1837270                    /lib/x86_64-linux-gnu/librt-2.13.so
+7f08a6c26000-7f08a6e25000 ---p 00007000 08:22 1837270                    /lib/x86_64-linux-gnu/librt-2.13.so
+7f08a6e25000-7f08a6e26000 r-xp 00006000 08:22 1837270                    /lib/x86_64-linux-gnu/librt-2.13.so
+7f08a6e26000-7f08a6e27000 rwxp 00007000 08:22 1837270                    /lib/x86_64-linux-gnu/librt-2.13.so
+7f08a6e27000-7f08a6e2a000 ---p 00000000 00:00 0 
+7f08a6e2a000-7f08a6f28000 rwxp 00000000 00:00 0 
+7f08a6f28000-7f08a6fac000 r-xp 00000000 08:22 1837246                    /lib/x86_64-linux-gnu/libm-2.13.so
+7f08a6fac000-7f08a71ab000 ---p 00084000 08:22 1837246                    /lib/x86_64-linux-gnu/libm-2.13.so
+7f08a71ab000-7f08a71ac000 r-xp 00083000 08:22 1837246                    /lib/x86_64-linux-gnu/libm-2.13.so
+7f08a71ac000-7f08a71ad000 rwxp 00084000 08:22 1837246                    /lib/x86_64-linux-gnu/libm-2.13.so
+7f08a71ad000-7f08a7ac7000 r-xp 00000000 08:22 1189432                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/server/libjvm.so
+7f08a7ac7000-7f08a7bc9000 ---p 0091a000 08:22 1189432                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/server/libjvm.so
+7f08a7bc9000-7f08a7d7e000 rwxp 0091c000 08:22 1189432                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/server/libjvm.so
+7f08a7d7e000-7f08a7db8000 rwxp 00000000 00:00 0 
+7f08a7db8000-7f08a7f42000 r-xp 00000000 08:22 1837230                    /lib/x86_64-linux-gnu/libc-2.13.so
+7f08a7f42000-7f08a8141000 ---p 0018a000 08:22 1837230                    /lib/x86_64-linux-gnu/libc-2.13.so
+7f08a8141000-7f08a8145000 r-xp 00189000 08:22 1837230                    /lib/x86_64-linux-gnu/libc-2.13.so
+7f08a8145000-7f08a8146000 rwxp 0018d000 08:22 1837230                    /lib/x86_64-linux-gnu/libc-2.13.so
+7f08a8146000-7f08a814c000 rwxp 00000000 00:00 0 
+7f08a814c000-7f08a814e000 r-xp 00000000 08:22 1837244                    /lib/x86_64-linux-gnu/libdl-2.13.so
+7f08a814e000-7f08a834e000 ---p 00002000 08:22 1837244                    /lib/x86_64-linux-gnu/libdl-2.13.so
+7f08a834e000-7f08a834f000 r-xp 00002000 08:22 1837244                    /lib/x86_64-linux-gnu/libdl-2.13.so
+7f08a834f000-7f08a8350000 rwxp 00003000 08:22 1837244                    /lib/x86_64-linux-gnu/libdl-2.13.so
+7f08a8350000-7f08a8368000 r-xp 00000000 08:22 1837266                    /lib/x86_64-linux-gnu/libpthread-2.13.so
+7f08a8368000-7f08a8568000 ---p 00018000 08:22 1837266                    /lib/x86_64-linux-gnu/libpthread-2.13.so
+7f08a8568000-7f08a8569000 r-xp 00018000 08:22 1837266                    /lib/x86_64-linux-gnu/libpthread-2.13.so
+7f08a8569000-7f08a856a000 rwxp 00019000 08:22 1837266                    /lib/x86_64-linux-gnu/libpthread-2.13.so
+7f08a856a000-7f08a856e000 rwxp 00000000 00:00 0 
+7f08a856e000-7f08a858f000 r-xp 00000000 08:22 1835033                    /lib/x86_64-linux-gnu/ld-2.13.so
+7f08a858f000-7f08a8591000 r-xs 0000a000 08:24 692277                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/muito_blobtracking.jar
+7f08a8591000-7f08a8593000 r-xs 00004000 08:24 692253                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop/lib/jogl/gluegen-rt.jar
+7f08a8593000-7f08a859d000 rwxp 00000000 00:00 0 
+7f08a859d000-7f08a8653000 rwxp 00000000 00:00 0 
+7f08a8653000-7f08a8656000 rwxp 00000000 00:00 0 
+7f08a8656000-7f08a865d000 r-xp 00000000 08:22 1189402                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/jli/libjli.so
+7f08a865d000-7f08a875e000 ---p 00007000 08:22 1189402                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/jli/libjli.so
+7f08a875e000-7f08a8760000 rwxp 00008000 08:22 1189402                    /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/jli/libjli.so
+7f08a8760000-7f08a8761000 rwxp 00000000 00:00 0 
+7f08a8761000-7f08a8766000 r-xs 00010000 08:24 684921                     /home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-core/lib/xml-apis-ext.jar
+7f08a8766000-7f08a8769000 r-xs 00000000 08:22 2621592                    /var/cache/fontconfig/d60319d88cac85ba9e1a07bd06cfbb8c-le64.cache-3
+7f08a8769000-7f08a876a000 r-xs 00000000 08:22 2622676                    /var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-le64.cache-3
+7f08a876a000-7f08a876e000 r-xs 00000000 08:22 2626485                    /var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-3
+7f08a876e000-7f08a8782000 r-xs 00000000 08:22 2621609                    /var/cache/fontconfig/865f88548240fee46819705c6468c165-le64.cache-3
+7f08a8782000-7f08a878a000 rwxs 00000000 08:22 1993131                    /tmp/hsperfdata_bguaman/5255
+7f08a878a000-7f08a878b000 rwxp 00000000 00:00 0 
+7f08a878b000-7f08a878c000 r-xp 00000000 00:00 0 
+7f08a878c000-7f08a878e000 rwxp 00000000 00:00 0 
+7f08a878e000-7f08a878f000 r-xp 00020000 08:22 1835033                    /lib/x86_64-linux-gnu/ld-2.13.so
+7f08a878f000-7f08a8791000 rwxp 00021000 08:22 1835033                    /lib/x86_64-linux-gnu/ld-2.13.so
+7fffedc89000-7fffedcab000 rwxp 00000000 00:00 0                          [stack]
+7fffedcec000-7fffedced000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.library.path=/home/bguaman/workspace/PLAYmt4j/MT4JClient/mt4j-desktop -Dfile.encoding=UTF-8 
+java_command: advanced.drawing.StartDrawExample
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+USERNAME=bguaman
+LD_LIBRARY_PATH=/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64/server:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/amd64:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/../lib/amd64:/usr/lib/xulrunner-1.9.2.17
+SHELL=/bin/bash
+DISPLAY=:0.0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x85f800], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x85f800], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x70e300], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0x70e300], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0x70e300], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x70e300], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x711110], sa_mask[0]=0x00000004, sa_flags=0x10000004
+SIGHUP: [libjvm.so+0x710d10], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGINT: [libjvm.so+0x710d10], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTERM: [libjvm.so+0x710d10], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGQUIT: [libjvm.so+0x710d10], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+
+
+---------------  S Y S T E M  ---------------
+
+OS:squeeze/sid
+
+uname:Linux 2.6.38-13-generic #54-Ubuntu SMP Tue Jan 3 13:38:12 UTC 2012 x86_64
+libc:glibc 2.13 NPTL 2.13 
+rlimit: STACK 8192k, CORE 0k, NPROC infinity, NOFILE 4096, AS infinity
+load average:0.01 0.05 0.05
+
+/proc/meminfo:
+MemTotal:        4056284 kB
+MemFree:           40540 kB
+Buffers:          694232 kB
+Cached:           678736 kB
+SwapCached:            0 kB
+Active:          1787800 kB
+Inactive:        1116444 kB
+Active(anon):    1205544 kB
+Inactive(anon):   349056 kB
+Active(file):     582256 kB
+Inactive(file):   767388 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       7815616 kB
+SwapFree:        7815540 kB
+Dirty:               624 kB
+Writeback:             0 kB
+AnonPages:       1531264 kB
+Mapped:           191080 kB
+Shmem:             23320 kB
+Slab:             926196 kB
+SReclaimable:     897124 kB
+SUnreclaim:        29072 kB
+KernelStack:        3576 kB
+PageTables:        34960 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     9843756 kB
+Committed_AS:    3540916 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      113588 kB
+VmallocChunk:   34359615996 kB
+HardwareCorrupted:     0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      250752 kB
+DirectMap2M:     3942400 kB
+
+
+CPU:total 4 (2 cores per cpu, 1 threads per core) family 15 model 65 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, mmxext, 3dnow, 3dnowext
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 65
+model name	: Dual-Core AMD Opteron(tm) Processor 2218
+stepping	: 3
+cpu MHz		: 1000.000
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow rep_good nopl extd_apicid pni cx16 lahf_lm cmp_legacy svm extapic cr8_legacy
+bogomips	: 2000.01
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp tm stc
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 65
+model name	: Dual-Core AMD Opteron(tm) Processor 2218
+stepping	: 3
+cpu MHz		: 1000.000
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow rep_good nopl extd_apicid pni cx16 lahf_lm cmp_legacy svm extapic cr8_legacy
+bogomips	: 2000.01
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp tm stc
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 65
+model name	: Dual-Core AMD Opteron(tm) Processor 2218
+stepping	: 3
+cpu MHz		: 2600.000
+cache size	: 1024 KB
+physical id	: 1
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow rep_good nopl extd_apicid pni cx16 lahf_lm cmp_legacy svm extapic cr8_legacy
+bogomips	: 5200.05
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp tm stc
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 65
+model name	: Dual-Core AMD Opteron(tm) Processor 2218
+stepping	: 3
+cpu MHz		: 2600.000
+cache size	: 1024 KB
+physical id	: 1
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow rep_good nopl extd_apicid pni cx16 lahf_lm cmp_legacy svm extapic cr8_legacy
+bogomips	: 5200.05
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp tm stc
+
+
+
+Memory: 4k page, physical 4056284k(40540k free), swap 7815616k(7815540k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.1-b02) for linux-amd64 JRE (1.6.0_26-b03), built on May  4 2011 01:13:47 by "java_re" with gcc 3.2.2 (SuSE Linux)
+
+time: Thu Jul 12 11:55:01 2012
+elapsed time: 11 seconds
+

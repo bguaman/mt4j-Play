@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/mesh
+END
+MTCube.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/mesh/MTCube.java
+END
+MTTriangleMesh.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/mesh/MTTriangleMesh.java
+END
+Triangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/mesh/Triangle.java
+END
+MTSphere.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/shapes/mesh/MTSphere.java
+END

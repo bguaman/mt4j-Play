@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/rotateProcessor
+END
+RotateEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/rotateProcessor/RotateEvent.java
+END
+RotateProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/inputProcessors/componentProcessors/rotateProcessor/RotateProcessor.java
+END

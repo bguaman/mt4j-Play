@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/class-use
+END
+ILogger.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/class-use/ILogger.html
+END
+MTLoggerFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/class-use/MTLoggerFactory.html
+END
+NoLoggerProvidedException.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/util/logging/class-use/NoLoggerProvidedException.html
+END

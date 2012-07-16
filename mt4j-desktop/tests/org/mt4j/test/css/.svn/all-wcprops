@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css
+END
+ColorMeasureTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/ColorMeasureTest.java
+END
+SelectorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/SelectorTest.java
+END
+TestApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/TestApp.java
+END
+StartIntegrationTestApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/StartIntegrationTestApp.java
+END
+FontParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/FontParserTest.java
+END
+IntegrationTestApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/IntegrationTestApp.java
+END
+SelectorIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/SelectorIntegrationTest.java
+END
+CSSHandlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/CSSHandlerTest.java
+END
+AllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/AllTests.java
+END
+BorderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/BorderTest.java
+END
+StartTestApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/MT4JClient/!svn/ver/6/mt4j-desktop/tests/org/mt4j/test/css/StartTestApp.java
+END

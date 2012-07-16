@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib/LICENSE.txt
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib/commons-collections-3.1.jar
+END
+whirlycache-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib/whirlycache-1.0.1.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib/commons-logging.jar
+END
+concurrent-1.3.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib/concurrent-1.3.4.jar
+END
+log4j-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/MT4JClient/!svn/ver/6/mt4j-desktop/lib/whirlylib/log4j-1.2.8.jar
+END

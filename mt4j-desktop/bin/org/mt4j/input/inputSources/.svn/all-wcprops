@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources
+END
+Win7NativeTouchSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources/Win7NativeTouchSource.java
+END
+KeyboardInputSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources/KeyboardInputSource.java
+END
+MouseInputSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources/MouseInputSource.java
+END
+MultipleMiceInputSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources/MultipleMiceInputSource.java
+END
+MacTrackpadSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources/MacTrackpadSource.java
+END
+MuitoInputSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/input/inputSources/MuitoInputSource.java
+END

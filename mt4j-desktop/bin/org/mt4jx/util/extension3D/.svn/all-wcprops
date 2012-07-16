@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D
+END
+MergeHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D/MergeHelper.java
+END
+LinearExpoMotionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D/LinearExpoMotionMapper.java
+END
+ComponentHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D/ComponentHelper.java
+END
+BoundingHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D/BoundingHelper.java
+END
+VelocityMotionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D/VelocityMotionMapper.java
+END
+MotionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/util/extension3D/MotionMapper.java
+END

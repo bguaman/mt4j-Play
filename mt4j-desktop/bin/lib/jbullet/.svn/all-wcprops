@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/lib/jbullet
+END
+vecmath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/lib/jbullet/vecmath.jar
+END
+stack-alloc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/lib/jbullet/stack-alloc.jar
+END
+jbullet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/lib/jbullet/jbullet.jar
+END

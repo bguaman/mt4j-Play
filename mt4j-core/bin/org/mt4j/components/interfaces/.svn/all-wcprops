@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/interfaces
+END
+IMTComponent3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/interfaces/IMTComponent3D.java
+END
+IMTComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/interfaces/IMTComponent.java
+END
+IMTController.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/interfaces/IMTController.java
+END
+IclickableButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/interfaces/IclickableButton.java
+END

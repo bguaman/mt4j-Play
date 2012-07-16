@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction
+END
+DefaultDragAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultDragAction.java
+END
+DefaultPanAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultPanAction.java
+END
+DefaultRotateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultRotateAction.java
+END
+ICollisionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/ICollisionAction.java
+END
+DefaultArcballAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultArcballAction.java
+END
+Rotate3DAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/Rotate3DAction.java
+END
+DefaultButtonClickAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultButtonClickAction.java
+END
+DefaultLassoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultLassoAction.java
+END
+DefaultZoomAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultZoomAction.java
+END
+InertiaDragAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/InertiaDragAction.java
+END
+DefaultScaleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/DefaultScaleAction.java
+END
+TapAndHoldVisualizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/input/gestureAction/TapAndHoldVisualizer.java
+END

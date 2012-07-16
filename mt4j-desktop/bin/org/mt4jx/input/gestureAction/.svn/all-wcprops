@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/gestureAction
+END
+CreateDragHelperAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/gestureAction/CreateDragHelperAction.java
+END
+CollisionDragAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/gestureAction/CollisionDragAction.java
+END
+DefaultDepthAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/gestureAction/DefaultDepthAction.java
+END
+HelperDragAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/gestureAction/HelperDragAction.java
+END
+MTImageCropScaleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/MT4JClient/!svn/ver/6/mt4j-desktop/extensions/org/mt4jx/input/gestureAction/MTImageCropScaleAction.java
+END

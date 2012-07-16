@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets
+END
+MTSlider.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTSlider.java
+END
+MTOverlayContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTOverlayContainer.java
+END
+MTWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTWindow.java
+END
+MTList.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTList.java
+END
+MTListCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTListCell.java
+END
+MTClipRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTClipRectangle.java
+END
+MTColorPicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTColorPicker.java
+END
+MTClipRoundRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTClipRoundRect.java
+END
+MTTextArea.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/MT4JClient/!svn/ver/6/mt4j-core/src/org/mt4j/components/visibleComponents/widgets/MTTextArea.java
+END

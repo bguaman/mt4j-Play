@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/logging
+END
+Log4jLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/logging/Log4jLogger.java
+END
+JavaLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/logging/JavaLogger.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl
+END
+GluTrianglulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/GluTrianglulator.java
+END
+JoglGL10.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/JoglGL10.java
+END
+CustomPGraphicsOpenGL.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/CustomPGraphicsOpenGL.java
+END
+JoglGL11.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/JoglGL11.java
+END
+JoglGL20.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/JoglGL20.java
+END
+JoglGLU.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/JoglGLU.java
+END
+JoglGL20Plus.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/JoglGL20Plus.java
+END
+GLuTesselator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/MT4JClient/!svn/ver/6/mt4j-desktop/src/org/mt4j/util/opengl/GLuTesselator.java
+END

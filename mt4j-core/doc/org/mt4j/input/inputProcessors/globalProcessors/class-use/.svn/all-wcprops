@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use
+END
+CursorTracer.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use/CursorTracer.html
+END
+AbstractGlobalInputProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use/AbstractGlobalInputProcessor.html
+END
+GlobalUnistrokeProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use/GlobalUnistrokeProcessor.html
+END
+InputRetargeter.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use/InputRetargeter.html
+END
+RawFingerProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use/RawFingerProcessor.html
+END
+RawFiducialProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/MT4JClient/!svn/ver/6/mt4j-core/doc/org/mt4j/input/inputProcessors/globalProcessors/class-use/RawFiducialProcessor.html
+END
