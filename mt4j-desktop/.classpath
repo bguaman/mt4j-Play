@@ -49,6 +49,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/tuio/tuio4j.jar" sourcepath="/home/bguaman/workspace/TUIO4j"/>
-	<classpathentry kind="lib" path="/home/bguaman/workspace/MT4jTUIO4jInputSources/tuio4jInput.jar"/>
+	<classpathentry kind="lib" path="lib/tuio/tuio4jinput.jar"/>
+	<classpathentry kind="lib" path="lib/twitter/twitter4j-core-2.2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
