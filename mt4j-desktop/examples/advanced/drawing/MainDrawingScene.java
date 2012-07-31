@@ -2,6 +2,7 @@ package advanced.drawing;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -41,6 +42,7 @@ public class MainDrawingScene extends AbstractScene {
 	int conglobal;
 	boolean save,bandera;
 	public int contadorImagen=0;
+	public double tiempo=System.currentTimeMillis();
 	
 //	private String imagesPath = System.getProperty("user.dir")+File.separator + "examples"+  File.separator +"advanced"+ File.separator + File.separator +"drawing"+ File.separator + File.separator +"data"+ File.separator +  File.separator +"images" + File.separator ;
 	private String imagesPath = "advanced" + AbstractMTApplication.separator + "drawing" + AbstractMTApplication.separator + "data" + AbstractMTApplication.separator + "images" + AbstractMTApplication.separator;
@@ -276,21 +278,23 @@ public class MainDrawingScene extends AbstractScene {
 		@Override
 		public void run() {
 			while(true){
-				if(conglobal>5){
-					conglobal=0;
+			
+				double tiempoFinal=System.currentTimeMillis();
+				double d=tiempoFinal-tiempo;
+				if(d>5000){
+					tiempo=tiempoFinal;
 					save=true;
-					bandera=true;				
-				}else{				
-					conglobal++;
-					save=false;
+					bandera=true;
+					System.out.println("Tiempo Inicial "+tiempo);
+					System.out.println("Tiempo Finanl"+ tiempoFinal);
+					System.out.println("DELTA TIME "+d+" Y SAVE ESTA EN "+save);
+					//drawAndUpdate(graphics, timeDelta)
 				}
-				//System.out.println("hola");
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+				else{			
+					//conglobal++;
+					//save=false;
+					//save=false;
+				}				
 			}
 			
 		}
@@ -321,7 +325,7 @@ public class MainDrawingScene extends AbstractScene {
 					iter.remove();
 				}
 			}
-		
+			System.out.println("");
 		}
 		
 		//Clear the background
@@ -332,25 +336,17 @@ public class MainDrawingScene extends AbstractScene {
 		//Draw and update canvas
 		this.getCanvas().drawAndUpdateCanvas(graphics, timeDelta);
 
-		if(bandera && save){
+		if(save){
 		
-		//System.out.println("condicion");
+		System.out.println("ESTOY GRABANDP");
 			bandera=false;
 			this.mtApplication.saveFrame("images/test"+this.contadorImagen+".jpg");
-			try {
-				Thread.sleep(100);
-			} catch (Exception e) {
-				// TODO: handle exception
-			}
-			
+		
+			//Publico el Frame capturado del Canvas 
+			//y lo publico en Twitter
 			ETwitter.procesarTweet(this.contadorImagen);
 			this.contadorImagen++;
-			//PImage imagen=this.mtApplication.get();
-			//imagen.save("imagen2.jpg");
+			save=false;
 		}
-		
 	}
-
-
-
 }

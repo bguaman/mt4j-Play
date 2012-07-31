@@ -1,10 +1,12 @@
 package advanced.drawing;
 
+import java.io.File;
 import java.util.HashMap;
 
 import org.mt4j.AbstractMTApplication;
 import org.mt4j.components.TransformSpace;
 import org.mt4j.components.visibleComponents.shapes.AbstractShape;
+import org.mt4j.components.visibleComponents.shapes.MTRectangle;
 import org.mt4j.input.IMTInputEventListener;
 import org.mt4j.input.inputData.AbstractCursorInputEvt;
 import org.mt4j.input.inputData.InputCursor;
@@ -16,6 +18,7 @@ import org.mt4j.util.math.ToolsMath;
 import org.mt4j.util.math.Vector3D;
 
 import processing.core.PApplet;
+import processing.core.PImage;
 
 
 public class DrawSurfaceScene extends AbstractScene  {
@@ -49,9 +52,18 @@ public class DrawSurfaceScene extends AbstractScene  {
 	public DrawSurfaceScene(AbstractMTApplication mtApplication, String name) {
 		super(mtApplication, name);
 		this.mtApp = mtApplication;
+		 String imagesPath =  "advanced" + AbstractMTApplication.separator +  "drawing"  + AbstractMTApplication.separator + "data" +  AbstractMTApplication.separator  + "images" +  AbstractMTApplication.separator;
+		PImage imagen_fondo=mtApplication.loadImage(imagesPath +"fondodibujo.fw.png");
+	
 		
 		this.getCanvas().setDepthBufferDisabled(true);
+		MTRectangle fondo=new MTRectangle(mtApp, 0, 0, -5, mtApplication.screenWidth, mtApplication.screenHeight);
+		fondo.setVisible(true);
+		fondo.setPickable(false);
+		fondo.setTexture(imagen_fondo);
 		
+		this.getCanvas().addChild(fondo);
+
 		/*
 		this.drawShape = getDefaultBrush();
 		this.localBrushCenter = drawShape.getCenterPointLocal();
@@ -80,7 +92,7 @@ public class DrawSurfaceScene extends AbstractScene  {
 							public void processAction() {
 								boolean firstPoint = false;
 								Vector3D lastDrawnPoint = cursorToLastDrawnPoint.get(m);
-								Vector3D pos = new Vector3D(posEvt.getX(), posEvt.getY(), 0);
+								Vector3D pos = new Vector3D(posEvt.getX(), posEvt.getY(), 20);
 
 								if (lastDrawnPoint == null){
 									lastDrawnPoint = new Vector3D(pos);

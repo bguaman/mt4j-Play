@@ -4,7 +4,7 @@ import org.mt4j.MTApplication;
 
 public class StartDrawExample extends MTApplication{
 	/**
-	 * 
+	 *	
 	 */
 	private static final long serialVersionUID = 1L;
 
@@ -13,7 +13,7 @@ public class StartDrawExample extends MTApplication{
 		initialize();
 	}
 	
-	//@Override
+	@Override
 	public void startUp(){
 		this.addScene(new MainDrawingScene(this, "Main drawing scene"));
 //		DrawingScene scene = new DrawingScene(this, "scene");
