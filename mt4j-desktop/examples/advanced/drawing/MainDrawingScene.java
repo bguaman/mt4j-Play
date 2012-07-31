@@ -169,7 +169,7 @@ public class MainDrawingScene extends AbstractScene {
         });*/
         
         //Save to file button
-        PImage floppyIcon = pa.loadImage(imagesPath + "floppy.png");
+        PImage floppyIcon = pa.loadImage(imagesPath + "t.png");
         final MTImageButton floppyButton = new MTImageButton(pa, floppyIcon);
         frame.addChild(floppyButton);
         floppyButton.translate(new Vector3D(-50f, 260,0));
