@@ -40,8 +40,10 @@ public class MainDrawingScene extends AbstractScene {
 	private MTEllipse pencilBrush;
 	private DrawSurfaceScene drawingScene;
 	int conglobal;
-	boolean save,bandera;
+	public MTRoundRectangle frame;
+	boolean save=false,bandera;
 	public int contadorImagen=0;
+	public MTSceneTexture sceneTexture;
 	public double tiempo=System.currentTimeMillis();
 	
 //	private String imagesPath = System.getProperty("user.dir")+File.separator + "examples"+  File.separator +"advanced"+ File.separator + File.separator +"drawing"+ File.separator + File.separator +"data"+ File.separator +  File.separator +"images" + File.separator ;
@@ -60,9 +62,9 @@ public class MainDrawingScene extends AbstractScene {
 			return;
 		}
 		this.registerGlobalInputProcessor(new CursorTracer(mtApplication, this));
-		
+		//this.getCanvas().
 		//Create window frame
-        MTRoundRectangle frame = new MTRoundRectangle(pa,-50, -50, 0, pa.width+100, pa.height+100,25, 25);
+        frame = new MTRoundRectangle(pa,-50, -50, 0, pa.width+100, pa.height+100,25, 25);
         frame.setSizeXYGlobal(pa.width-10, pa.height-10);
         frame.setPickable(false);
         this.getCanvas().addChild(frame);
@@ -94,13 +96,21 @@ public class MainDrawingScene extends AbstractScene {
         //Create the frame/window that displays the drawing scene through a FBO
 //        final MTSceneTexture sceneWindow = new MTSceneTexture(0,0, pa, drawingScene);
 		//We have to create a fullscreen fbo in order to save the image uncompressed
-		final MTSceneTexture sceneTexture = new MTSceneTexture(pa,0, 0, pa.width, pa.height, drawingScene);
+		sceneTexture = new MTSceneTexture(pa,0, 0, pa.width, pa.height, drawingScene);
         sceneTexture.getFbo().clear(true, 255, 255, 255, 0, true);
-        sceneTexture.setStrokeColor(new MTColor(155,155,155));
+        sceneTexture.setStrokeColor(new MTColor(255,255,255));
         frame.addChild(sceneTexture);
         
+    	PImage imagen_fondo=mtApplication.loadImage(imagesPath +"fondodibujo.fw.png");
+        
+		MTRectangle fondo=new MTRectangle(pa, -50, -50, 0, mtApplication.screenWidth+100, mtApplication.screenHeight+100);
+		fondo.setVisible(true);
+		fondo.setPickable(false);
+		fondo.setTexture(imagen_fondo);
+		
+		sceneTexture.addChild(fondo);
         //Eraser button
-        PImage eraser = pa.loadImage(imagesPath + "Kde_crystalsvg_eraser.png");
+        /*PImage eraser = pa.loadImage(imagesPath + "Kde_crystalsvg_eraser.png");
         MTImageButton b = new MTImageButton(pa, eraser);
         b.setNoStroke(true);
         b.translate(new Vector3D(-50,0,0));
@@ -117,11 +127,11 @@ public class MainDrawingScene extends AbstractScene {
 				}
 				return true;
 			}
-        });
+        });*/
         //frame.addChild(b);
         
         //Pen brush selector button
-        PImage penIcon = pa.loadImage(imagesPath + "pen.png");
+      /*  PImage penIcon = pa.loadImage(imagesPath + "pen.png");
         final MTImageButton penButton = new MTImageButton(pa, penIcon);
         //frame.addChild(penButton);
         penButton.translate(new Vector3D(-50f, 65,0));
@@ -156,7 +166,7 @@ public class MainDrawingScene extends AbstractScene {
 				}
 				return true;
 			}
-        });
+        });*/
         
         //Save to file button
         PImage floppyIcon = pa.loadImage(imagesPath + "floppy.png");
@@ -191,7 +201,7 @@ public class MainDrawingScene extends AbstractScene {
         
         /////////////////////////
         //ColorPicker and colorpicker button
-        PImage colPick = pa.loadImage(imagesPath + "colorcircle.png");
+      /*  PImage colPick = pa.loadImage(imagesPath + "colorcircle.png");
 //        final MTColorPicker colorWidget = new MTColorPicker(0, pa.height-colPick.height, colPick, pa);
         final MTColorPicker colorWidget = new MTColorPicker(pa, 0, 0, colPick);
         colorWidget.translate(new Vector3D(0f, 135,0));
@@ -211,7 +221,7 @@ public class MainDrawingScene extends AbstractScene {
        // frame.addChild(colorWidget);
         colorWidget.setVisible(false);
         
-        PImage colPickIcon = pa.loadImage(imagesPath + "ColorPickerIcon.png");
+    /*    PImage colPickIcon = pa.loadImage(imagesPath + "ColorPickerIcon.png");
         MTImageButton colPickButton = new MTImageButton(pa, colPickIcon);
         //frame.addChild(colPickButton);
         colPickButton.translate(new Vector3D(-50f, 195,0));
@@ -229,10 +239,10 @@ public class MainDrawingScene extends AbstractScene {
 				}
 				return true;
 			}
-        });
+        });*/
         
         //Add a slider to set the brush width
-        MTSlider slider = new MTSlider(pa, 0, 0, 200, 38, 0.05f, 2.0f);
+   /*     MTSlider slider = new MTSlider(pa, 0, 0, 200, 38, 0.05f, 2.0f);
         slider.setValue(1.0f);
        // frame.addChild(slider);
         slider.rotateZ(new Vector3D(), 90, TransformSpace.LOCAL);
@@ -260,7 +270,7 @@ public class MainDrawingScene extends AbstractScene {
         p.unregisterAllInputProcessors();
         p.setPickable(false);
         slider.getOuterShape().addChild(p);
-        slider.getKnob().sendToFront();
+        slider.getKnob().sendToFront();*/
         
 	    contadortiempo c = new contadortiempo();
 		Thread hilo=new Thread(c);
@@ -281,20 +291,11 @@ public class MainDrawingScene extends AbstractScene {
 			
 				double tiempoFinal=System.currentTimeMillis();
 				double d=tiempoFinal-tiempo;
-				if(d>5000){
+				if(d>15000){
 					tiempo=tiempoFinal;
 					save=true;
 					bandera=true;
-					System.out.println("Tiempo Inicial "+tiempo);
-					System.out.println("Tiempo Finanl"+ tiempoFinal);
-					System.out.println("DELTA TIME "+d+" Y SAVE ESTA EN "+save);
-					//drawAndUpdate(graphics, timeDelta)
-				}
-				else{			
-					//conglobal++;
-					//save=false;
-					//save=false;
-				}				
+				}			
 			}
 			
 		}
@@ -325,7 +326,6 @@ public class MainDrawingScene extends AbstractScene {
 					iter.remove();
 				}
 			}
-			System.out.println("");
 		}
 		
 		//Clear the background
@@ -335,18 +335,20 @@ public class MainDrawingScene extends AbstractScene {
 		
 		//Draw and update canvas
 		this.getCanvas().drawAndUpdateCanvas(graphics, timeDelta);
-
 		if(save){
-		
-		System.out.println("ESTOY GRABANDP");
+			
 			bandera=false;
 			this.mtApplication.saveFrame("images/test"+this.contadorImagen+".jpg");
-		
 			//Publico el Frame capturado del Canvas 
 			//y lo publico en Twitter
-			ETwitter.procesarTweet(this.contadorImagen);
+			ETwitter tweet=new ETwitter(this.contadorImagen);
+			Thread hThread=new Thread(tweet);
+			hThread.start();
+			//ETwitter.procesarTweet(this.contadorImagen);
 			this.contadorImagen++;
 			save=false;
+			sceneTexture.getFbo().clear(true, 255, 255, 255, 0, true);	
+			
 		}
 	}
 }

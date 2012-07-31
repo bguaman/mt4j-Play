@@ -53,16 +53,16 @@ public class DrawSurfaceScene extends AbstractScene  {
 		super(mtApplication, name);
 		this.mtApp = mtApplication;
 		 String imagesPath =  "advanced" + AbstractMTApplication.separator +  "drawing"  + AbstractMTApplication.separator + "data" +  AbstractMTApplication.separator  + "images" +  AbstractMTApplication.separator;
-		PImage imagen_fondo=mtApplication.loadImage(imagesPath +"fondodibujo.fw.png");
+		//PImage imagen_fondo=mtApplication.loadImage(imagesPath +"fondodibujo.fw.png");
 	
 		
 		this.getCanvas().setDepthBufferDisabled(true);
-		MTRectangle fondo=new MTRectangle(mtApp, 0, 0, -5, mtApplication.screenWidth, mtApplication.screenHeight);
+		/*MTRectangle fondo=new MTRectangle(mtApp, 0, 0, -5, mtApplication.screenWidth, mtApplication.screenHeight);
 		fondo.setVisible(true);
 		fondo.setPickable(false);
 		fondo.setTexture(imagen_fondo);
 		
-		this.getCanvas().addChild(fondo);
+		this.getCanvas().addChild(fondo);*/
 
 		/*
 		this.drawShape = getDefaultBrush();
