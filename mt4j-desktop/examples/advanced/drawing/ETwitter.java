@@ -34,14 +34,14 @@ public class ETwitter implements Runnable{
 					//configuracion con los datos de la aplicacion creada en Twitter
 					ConfigurationBuilder cb = new ConfigurationBuilder();
 					cb.setDebugEnabled(true)
-					  .setOAuthConsumerKey("PYHp4bhLf4snQilYgf9ywQ")
-					  .setOAuthConsumerSecret("7Z99I6bqgJbEJeRkUfTXbxakspzQP3RUuOgIvCnGdM4")
+					  .setOAuthConsumerKey("uWw17QcCHAYqRhd9w00Aw")
+					  .setOAuthConsumerSecret("kq1EzMxQ5CTR4WqVhlfQK7TJvHwyyCZTFit4zEVDFg")
 					  .setOAuthAccessToken("729056089-ByM1Gt2c7lqTRQkD23b4EqjQBZrfzhggVx0ggdd8")
 					  .setOAuthAccessTokenSecret("rrzjpRcedxzIaBg7SOpxaomTMdehyudocuF23kpDs");
 					TwitterFactory tf = new TwitterFactory(cb.build());
 					Twitter twitter = tf.getInstance(); 
 					//status para para el Tweet
-				    StatusUpdate status = new StatusUpdate("Imagen del Canvas #CTI realizadas con un led Infrarrojo");
+				    StatusUpdate status = new StatusUpdate("Miren mi dibujo en el @inventioWall de la @FeriaPlay2012!! #FPlay2012");
 				   status.setMedia(picture);//coloca el recurso imagen en el estatus
 				    twitter.updateStatus(status);// push del estado en Twitter
 				} catch (Exception e) {

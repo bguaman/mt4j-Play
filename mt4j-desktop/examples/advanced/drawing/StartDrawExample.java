@@ -23,6 +23,3 @@ public class StartDrawExample extends MTApplication{
 	}
 	
 }
-
-
-

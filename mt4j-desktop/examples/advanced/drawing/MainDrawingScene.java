@@ -95,13 +95,13 @@ public class MainDrawingScene extends AbstractScene {
 		
         //Create the frame/window that displays the drawing scene through a FBO
 //        final MTSceneTexture sceneWindow = new MTSceneTexture(0,0, pa, drawingScene);
-		//We have to create a fullscreen fbo in order to save the image uncompressed
+		//We have to create a fullscreen fbo in order to save the image uncompressedc
 		sceneTexture = new MTSceneTexture(pa,0, 0, pa.width, pa.height, drawingScene);
         sceneTexture.getFbo().clear(true, 255, 255, 255, 0, true);
         sceneTexture.setStrokeColor(new MTColor(255,255,255));
         frame.addChild(sceneTexture);
         
-    	PImage imagen_fondo=mtApplication.loadImage(imagesPath +"fondodibujo.fw.png");
+        PImage imagen_fondo=mtApplication.loadImage(imagesPath +"Inventio-Wall.png");
         
 		MTRectangle fondo=new MTRectangle(pa, -50, -50, 0, mtApplication.screenWidth+100, mtApplication.screenHeight+100);
 		fondo.setVisible(true);
@@ -110,10 +110,10 @@ public class MainDrawingScene extends AbstractScene {
 		
 		sceneTexture.addChild(fondo);
         //Eraser button
-        /*PImage eraser = pa.loadImage(imagesPath + "Kde_crystalsvg_eraser.png");
+        PImage eraser = pa.loadImage(imagesPath + "Kde_crystalsvg_eraser.png");
         MTImageButton b = new MTImageButton(pa, eraser);
         b.setNoStroke(true);
-        b.translate(new Vector3D(-50,0,0));
+        b.translate(new Vector3D(-50,400,0));
         b.addGestureListener(TapProcessor.class, new IGestureEventListener() {
 			public boolean processGestureEvent(MTGestureEvent ge) {
 				TapEvent te = (TapEvent)ge;
@@ -127,8 +127,8 @@ public class MainDrawingScene extends AbstractScene {
 				}
 				return true;
 			}
-        });*/
-        //frame.addChild(b);
+        });
+        frame.addChild(b); 
         
         //Pen brush selector button
       /*  PImage penIcon = pa.loadImage(imagesPath + "pen.png");
@@ -172,20 +172,25 @@ public class MainDrawingScene extends AbstractScene {
         PImage floppyIcon = pa.loadImage(imagesPath + "t.png");
         final MTImageButton floppyButton = new MTImageButton(pa, floppyIcon);
         frame.addChild(floppyButton);
-        floppyButton.translate(new Vector3D(-50f, 260,0));
+        floppyButton.translate(new Vector3D(-50f, 460,0));
         floppyButton.setNoStroke(true);
         floppyButton.addGestureListener(TapProcessor.class, new IGestureEventListener() {
 			public boolean processGestureEvent(MTGestureEvent ge) {
 				TapEvent te = (TapEvent)ge;
 				if (te.isTapped()){
-//					pa.invokeLater(new Runnable() {
-//						public void run() {
-//							drawingScene.getCanvas().drawAndUpdateCanvas(pa.g, 0);
-//							pa.saveFrame();
-//							clear(pa.g);
-//						}
-//					});
-					drawingScene.registerPreDrawAction(new IPreDrawAction() {
+					pa.invokeLater(new Runnable() {
+						public void run() {
+							drawingScene.getCanvas().drawAndUpdateCanvas(pa.g, 0);
+							pa.saveFrame("images/test"+contadorImagen+".jpg");
+							clear(pa.g);
+						}
+					});
+					//pa.saveFrame("images/test"+contadorImagen+".jpg");
+					ETwitter tweet=new ETwitter(contadorImagen);
+					Thread hThread=new Thread(tweet);
+					hThread.start();
+					sceneTexture.getFbo().clear(true, 255, 255, 255, 0, true);
+			/*		drawingScene.registerPreDrawAction(new IPreDrawAction() {
 						public void processAction() {
 							//drawingScene.getCanvas().drawAndUpdateCanvas(pa.g, 0);
 							pa.saveFrame();
@@ -193,7 +198,8 @@ public class MainDrawingScene extends AbstractScene {
 						public boolean isLoop() {
 							return false;
 						}
-					});
+					});*/
+					contadorImagen++;
 				}
 				return true;
 			}
@@ -281,9 +287,7 @@ public class MainDrawingScene extends AbstractScene {
 	public class contadortiempo implements Runnable{
 
 		public contadortiempo(){
-			
-		    
-			
+			//temporizador que mira si es tiempo de exportar la imagen y guardarla
 		}
 		@Override
 		public void run() {
@@ -291,7 +295,7 @@ public class MainDrawingScene extends AbstractScene {
 			
 				double tiempoFinal=System.currentTimeMillis();
 				double d=tiempoFinal-tiempo;
-				if(d>15000){
+				if(d>360000){
 					tiempo=tiempoFinal;
 					save=true;
 					bandera=true;
@@ -341,13 +345,13 @@ public class MainDrawingScene extends AbstractScene {
 			this.mtApplication.saveFrame("images/test"+this.contadorImagen+".jpg");
 			//Publico el Frame capturado del Canvas 
 			//y lo publico en Twitter
-			ETwitter tweet=new ETwitter(this.contadorImagen);
+			/*ETwitter tweet=new ETwitter(this.contadorImagen);
 			Thread hThread=new Thread(tweet);
-			hThread.start();
+			hThread.start();*/
 			//ETwitter.procesarTweet(this.contadorImagen);
 			this.contadorImagen++;
 			save=false;
-			sceneTexture.getFbo().clear(true, 255, 255, 255, 0, true);	
+			//sceneTexture.getFbo().clear(true, 255, 255, 255, 0, true);	
 			
 		}
 	}
